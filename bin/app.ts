@@ -1,6 +1,6 @@
 import * as cdk from '@aws-cdk/core';
 
-import AwesomeStack from '../lib/awesome-stack';
+import PrStack from '../lib/pr-stack';
 
 const app = new cdk.App();
 
@@ -12,4 +12,4 @@ const app = new cdk.App();
  */
 const stackName = 'AwesomeStack-' + process.env.STAGE;
 
-new AwesomeStack(app, stackName);
+new PrStack(app, stackName);
