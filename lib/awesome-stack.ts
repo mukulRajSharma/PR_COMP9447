@@ -7,7 +7,7 @@ import * as cdk from "@aws-cdk/core";
 /**
  * The CloudFormation stack holding all our resources
  */
-export default class PrStack extends cdk.Stack {
+export default class AwesomeStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
